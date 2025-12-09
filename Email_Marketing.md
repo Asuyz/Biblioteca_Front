@@ -1301,8 +1301,28 @@ Email enviado por: <b>%%Member_Busname%%</b><br>
 </html>
 ```
 
+## » **CSS em linha utilizado na |Table| e |Td|
 
-## » **CSS em linha para utilizar em "Menus" dentro da tag < img >.**
+```HTML
+
+<!--Table  (Todas as <table> irão precisar) -->
+
+<table width="600" border="0" cellpadding="0" cellspacing="0" align="center">
+
+<!--Td (Todas as <td> irão precisar-->
+
+<td align="center" width="600" style="width:600px; min-width:600px;">
+
+
+```
+
+
+## » **CSS em linha da tag |Body|.**
+
+```HTML
+<body style="margin:0; padding:0;">
+```
+## » **CSS em linha para utilizar em "Menus" dentro da tag |img|.**
 
 ```HTML
 width="600"
@@ -1312,10 +1332,11 @@ style="display:block; width:100%; height:auto; border:0; margin:0 auto;">
 
 ## » **CSS em linha "padrão" para as imagens.**
 
-```
+```HTML
+
 width="600"
 
-style="display:block; width:600px; min-width:600px; max-width:600px; height:auto; border:0; margin:0 auto;">
+style="display:block; width:600px; min-width:600px; max-width:600px; height:auto; border:0; margin:0 auto;"
 ```
 
 ## » **Exemplos prontos:(Imagens deverão ser trocadas e seguir o widht de 600px).**
